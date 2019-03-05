@@ -31,7 +31,7 @@ public class Map_capture_controller implements Initializable{
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		WebEngine webEngine = map_view.getEngine();
-		webEngine.load("http://192.168.206.18:8080/MAP_TEST/search_place_map.html");
+		webEngine.load("http://localhost/MAP_TEST/search_place_map.html");
 		
 		Close_Btn.setOnAction(e->{
 			Main_page_controller.WritePage.close();
