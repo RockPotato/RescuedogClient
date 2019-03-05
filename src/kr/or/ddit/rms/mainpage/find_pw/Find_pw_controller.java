@@ -145,8 +145,8 @@ public class Find_pw_controller implements Initializable {
 		// Java Mail API
 		// 발신자 메일 설정 부분
 		String host     		= "smtp.naver.com";
-		final String user   	= "pjk2289@naver.com";
-		final String password 	= "dntjd72007989@";
+		final String user   	= ""; // 네이버 아이디 
+		final String password 	= ""; // 비밀번호 입력
 
 		// 수신자 메일 주소
 		String to     = Findpw_Email_Txt.getText();
